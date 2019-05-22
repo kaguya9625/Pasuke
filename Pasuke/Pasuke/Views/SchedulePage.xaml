@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pasuke.Views.SchedulePage"
+             xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"
+             Title="シフト予定"
+             Icon="Calender.png">
+
+    <Grid ColumnSpacing="0" RowSpacing="0">
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+
+        <Label Grid.Column="0"
+               Grid.ColumnSpan="3"
+               Grid.Row="0"
+               HorizontalOptions="Center"
+               VerticalOptions="Start"
+               Text="{Binding Path = info}"/>
+
+        <controls:Calendar x:Name="_calendar" 
+                           Padding="10,50,0,0"
+                           StartDay="Monday"
+                           SelectedBorderWidth="2"
+                           SelectedBorderColor="Gold"
+                           DisabledBorderColor="Black"
+                           TitleLabelFormat="yyyy年MM月"
+                           Grid.Column="0"
+                           Grid.ColumnSpan="3"
+                           Grid.Row="0"                       
+                           DateCommand="{Binding Path=DateCommand}"/>
+
+        <Grid  ColumnSpacing="0" 
+               RowSpacing="0"
+               Grid.Column="0"
+               Grid.ColumnSpan="3"
+               Grid.Row="1">
+
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0"
+                   Grid.Row="0"
+                   Text="勤務開始時間"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start"/>
+            <TimePicker FontSize="Large"
+                    Grid.Column="0"
+                    Grid.Row="0"
+                    HeightRequest="50"
+                    WidthRequest="125"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" 
+                    Format="tt HH:mm"
+                     
+                    Time="{Binding Path = StartTime}" />
+
+            <Label Grid.Column="1"
+                   Grid.Row="0"
+                   Text="勤務終了時間"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start"/>
+
+            <TimePicker FontSize="Large"
+                    Grid.Column="1"
+                    Grid.Row="0"
+                    HeightRequest="50"
+                    WidthRequest="125"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Format="tt HH:mm"
+                    Time="{Binding Path = EndTime}" />
+
+            <Button x:Name="Mode1"
+                    Grid.Column="2"
+                    Grid.Row="0"
+                    Text="{Binding Path=ButtonText}"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    IsEnabled="{Binding Path=Enable}"
+                    Command="{Binding Path = Mode1Command}"/>
+        </Grid>
+    </Grid>
+</ContentPage>
