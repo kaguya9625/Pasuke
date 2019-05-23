@@ -5,11 +5,10 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 using System.Windows.Input;
 using System.Threading.Tasks;
-using Pasuke.ViewModels;
 
 namespace Pasuke.ViewModels
 {
-    public class SchedulePageViewModel : ViewModelBase
+    public class AddSchedulePageViewModel : ViewModelBase
     {
 
         public string AddShift { get; private set; }
@@ -17,21 +16,21 @@ namespace Pasuke.ViewModels
         public DelegateCommand Mode1Command { get; set; }
 
 
-        public SchedulePageViewModel(INavigationService navigationService)
+        public AddSchedulePageViewModel(INavigationService navigationService)
             : base(navigationService)
         {
             ButtonText = "シフト入力";
-            Enable = true;
-            StartTime = new TimeSpan(17, 00, 00);
-            EndTime = new TimeSpan(21, 30, 00);
+            Enable = true; //ボタンの有効化
+            StartTime = new TimeSpan(17, 00, 00);//業務開始時間
+            EndTime = new TimeSpan(21, 30, 00);//業務終了時間
             Mode1Command = new DelegateCommand(Mode1);
         }
-
-        private List<DateTime> _specialdates = new List<DateTime>();
-        public List<DateTime> SpecialDate
+         //シフト
+        private List<DateTime> _shiftlist = new List<DateTime>();
+        public List<DateTime> ShiftList
         {
-            get => _specialdates;
-            set => SetProperty(ref _specialdates, value);
+            get => _shiftlist;
+            set => SetProperty(ref _shiftlist, value);
         }
 
         private TimeSpan _starttime;
@@ -81,7 +80,12 @@ namespace Pasuke.ViewModels
             get => _enable;
             set => SetProperty(ref _enable, value);
         }
-
+        private DateTime _specialdates;
+        public DateTime Specialdates
+        {
+            get => _specialdates;
+            set => SetProperty(ref _specialdates, value);
+        }
         private async void Mode1()
         {
             if (Check != 1)
@@ -98,6 +102,8 @@ namespace Pasuke.ViewModels
                 ButtonText = "シフト入力";
                 await Task.Delay(3000);
                 Enable = true;
+                Console.WriteLine(StartTime.GetType());
+
                 info = "";
             }
         }
@@ -106,18 +112,11 @@ namespace Pasuke.ViewModels
         {
             if (Check == 1)
             {
+                //リストが空、または既に追加されてないならリストに追加
                 DateTime date = (DateTime)obj;
-                if (SpecialDate?.Count > 0 == false)
+                if (ShiftList?.Count > 0 == false || !ShiftList.Contains(date))
                 {
-                    SpecialDate.Add(date);
-                }
-                else
-                {
-                    if (!SpecialDate.Contains(date))
-                    {
-                        SpecialDate.Add(date);
-                    }
-
+                    ShiftList.Add(date);
                 }
             }
         });

@@ -1,14 +1,15 @@
 E:\hobby\Pasuke\Pasuke\Pasuke\bin\Debug\netstandard2.0\Pasuke.deps.json
 E:\hobby\Pasuke\Pasuke\Pasuke\bin\Debug\netstandard2.0\Pasuke.dll
+E:\hobby\Pasuke\Pasuke\Pasuke\bin\Debug\netstandard2.0\Pasuke.pdb
 E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\Views\AddSchedulePage.xaml.g.cs
 E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\Views\ResultPage.xaml.g.cs
 E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\Views\SchedulePage.xaml.g.cs
 E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\Pasuke.csproj.CoreCompileInputs.cache
 E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\Pasuke.AssemblyInfoInputs.cache
 E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\Pasuke.AssemblyInfo.cs
-E:\hobby\Pasuke\Pasuke\Pasuke\bin\Debug\netstandard2.0\Pasuke.pdb
-E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\XamlC.stamp
 E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\Pasuke.dll
 E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\Pasuke.pdb
 E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\Pasuke.csprojAssemblyReference.cache
+E:\hobby\Pasuke\Pasuke\Pasuke\obj\Debug\netstandard2.0\XamlC.stamp

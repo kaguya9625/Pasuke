@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "01c642fdd44cd57ff86de8c26df012d58570435c"
+    "signature": "bc34974bd4d58656b74b1284e02e83b50453b942"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,8 +12,10 @@
           "NETStandard.Library": "2.0.3",
           "Prism.Unity.Forms": "7.1.0.431",
           "PublicHoliday": "2.0.3",
+          "Syncfusion.Xamarin.SfCalendar": "17.1.0.48",
           "XamForms.Controls.Calendar": "1.1.1",
-          "Xamarin.Forms": "3.2.0.839982"
+          "Xamarin.Forms": "3.2.0.839982",
+          "sqlite-net-pcl": "1.5.231"
         },
         "runtime": {
           "Pasuke.dll": {}
@@ -65,6 +67,76 @@
           "lib/netstandard1.3/PublicHoliday.dll": {
             "assemblyVersion": "2.0.3.0",
             "fileVersion": "2.0.3.0"
+          }
+        }
+      },
+      "sqlite-net-pcl/1.5.231": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.bundle_green": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {
+            "assemblyVersion": "1.5.231.0",
+            "fileVersion": "1.5.231.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.core": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/17.1.0.48": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "17.1.0.48",
+            "fileVersion": "17.1.0.48"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.Core/17.1.0.48": {
+        "dependencies": {
+          "Syncfusion.Licensing": "17.1.0.48"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.Core.XForms.dll": {
+            "assemblyVersion": "17.1451.0.48",
+            "fileVersion": "17.1451.0.48"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfCalendar/17.1.0.48": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.1.0.48",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.SfCalendar.XForms.dll": {
+            "assemblyVersion": "17.1451.0.48",
+            "fileVersion": "17.1451.0.48"
           }
         }
       },
@@ -163,6 +235,48 @@
       "sha512": "sha512-eyuT2I6gN7FuueN1OpcJvtwZ71xx6/lyFXy4cR+ILo4brD2rA2S+qig6pP5lTLaPYvMzstEbhTo+Gjsp04nexQ==",
       "path": "publicholiday/2.0.3",
       "hashPath": "publicholiday.2.0.3.nupkg.sha512"
+    },
+    "sqlite-net-pcl/1.5.231": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B9jScvqkishSMkpa9Mc4Q85LTHxRTzcUXZx9EQqgrvdz7MFEDHfpiPcKdjy1qXHdmHttEXfY4h6gu4FlgWP2Sw==",
+      "path": "sqlite-net-pcl/1.5.231",
+      "hashPath": "sqlite-net-pcl.1.5.231.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_green/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hqp8IF/RLjbypkLm+t+1RqAX8EKuWEkj7wkLXplfENQoPnE127cvTmaDvaQKtt7a5QsD/HNjFDr1z5f9q2wdPg==",
+      "path": "sqlitepclraw.bundle_green/1.1.11",
+      "hashPath": "sqlitepclraw.bundle_green.1.1.11.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QT17CyQAQIbTCu6pW5+uVA8BXqRzquiDI1tr5Un6c1YZcQydPmGPuYYng9xMs2UHUDYHbTu+JDkp55WR+qo9bQ==",
+      "path": "sqlitepclraw.core/1.1.11",
+      "hashPath": "sqlitepclraw.core.1.1.11.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/17.1.0.48": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xIlyScb+t+9D7hmf9G+83HFVCrhwFFCZBpLj3OD377TEuBUKRVQFK88vlGG2KRtVB4oBiMCjKC4yZutLNmsvig==",
+      "path": "syncfusion.licensing/17.1.0.48",
+      "hashPath": "syncfusion.licensing.17.1.0.48.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.Core/17.1.0.48": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZSGV2fye4IrNfaQfwcT1hbAYp5SyPjuUccOoohSCK+PomlFKZf8YsXJsGtHrFsUn24apmJuhoPJcPBN77sUqMA==",
+      "path": "syncfusion.xamarin.core/17.1.0.48",
+      "hashPath": "syncfusion.xamarin.core.17.1.0.48.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfCalendar/17.1.0.48": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7xoULsPaKmC0gjOzvljP0KPvciBF5OZ2qVSzXnauAmBKL1b4HRyFyETIhz90ZZeUTFHbn+fuqIpFJEvyHmRtLw==",
+      "path": "syncfusion.xamarin.sfcalendar/17.1.0.48",
+      "hashPath": "syncfusion.xamarin.sfcalendar.17.1.0.48.nupkg.sha512"
     },
     "Unity.Abstractions/3.3.1": {
       "type": "package",
