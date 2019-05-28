@@ -57,6 +57,14 @@
               "target": "Package",
               "version": "[2.0.3, )"
             },
+            "ReactiveProperty": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Realm": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
             "Syncfusion.Xamarin.SfCalendar": {
               "target": "Package",
               "version": "[17.1.0.48, )"
@@ -67,7 +75,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.2.0.839982, )"
+              "version": "[4.0.0.425677, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",

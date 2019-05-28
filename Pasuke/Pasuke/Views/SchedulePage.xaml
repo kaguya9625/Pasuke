@@ -2,6 +2,48 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Pasuke.Views.SchedulePage"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             NavigationPage.HasNavigationBar="False"
              Title="シフト予定"
              Icon="Calender.png">
+
+    <StackLayout>
+        <ListView ItemsSource="{Binding ListView}" Header="出勤予定日" HasUnevenRows="True">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid BackgroundColor="White"
+                              Margin="4">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="2"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0"
+                                   Text="{Binding StartDate}"
+                                   Margin="4"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center"
+                                   HeightRequest="25"
+                                   TextColor="Black"/>
+                                <Label Text="～"
+                                   Grid.Column="1"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center"/>
+                                <Label Grid.Column="2"
+                                   Text="{Binding EndDate}"
+                                   Margin="4"
+                                   HorizontalOptions="Start"
+                                   VerticalOptions="Center"
+                                   HeightRequest="25"
+                                   
+                                   TextColor="Black"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+    </StackLayout>
 </ContentPage>

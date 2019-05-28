@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pasuke.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,10 @@ namespace Pasuke.Views
         public SchedulePage()
         {
             InitializeComponent();
+        }
+        protected override void OnAppearing()
+        {
+            BindingContext = new SchedulePageViewModel();
         }
     }
 }

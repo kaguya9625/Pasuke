@@ -3,11 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Pasuke.Views.AddSchedulePage"
              xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             NavigationPage.HasNavigationBar="False"
              Title="シフト入力"
-             Icon="add.png">
+             Icon="Add.png">
 
-    
-<!-- 親Gridの追加
+
+    <!-- 親Gridの追加
     列:3
     行:2-->
     <Grid ColumnSpacing="0" RowSpacing="0">

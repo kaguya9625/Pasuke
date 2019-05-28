@@ -6,24 +6,20 @@
 
   <ItemGroup>
     <PackageReference Include="PublicHoliday" Version="2.0.3" />
+    <PackageReference Include="ReactiveProperty" Version="5.5.1" />
+    <PackageReference Include="Realm" Version="3.4.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.5.231" />
     <PackageReference Include="Syncfusion.Xamarin.SfCalendar" Version="17.1.0.48" />
-    <PackageReference Include="Xamarin.Forms" Version="3.2.0.839982" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.425677" />
     <PackageReference Include="Prism.Unity.Forms" Version="7.1.0.431" />
     <PackageReference Include="XamForms.Controls.Calendar" Version="1.1.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\AddSchedulePage.xaml.cs">
-      <DependentUpon>AddSchedulePage.xaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="Views\ResultPage.xaml">
+    <EmbeddedResource Update="Views\AddSchedulePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\AddSchedulePage.xaml">
+    <EmbeddedResource Update="Views\ResultPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SchedulePage.xaml">

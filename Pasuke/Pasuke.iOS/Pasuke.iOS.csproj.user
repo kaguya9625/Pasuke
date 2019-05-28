@@ -20,5 +20,6 @@
 &lt;/dict&gt;
 &lt;/plist&gt;
 </TargetiOSDevice>
+    <DefaultDevice>iPad %286th generation%29 iOS 12.2</DefaultDevice>
   </PropertyGroup>
 </Project>

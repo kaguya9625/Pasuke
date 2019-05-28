@@ -1,5 +1,11 @@
 android.support.design.widget.TabLayout;obj\Debug\81\res\layout\tabbar.xml
 android.support.v7.widget.Toolbar;obj\Debug\81\res\layout\toolbar.xml
+dimen;E:\hobby\Pasuke\Pasuke\Pasuke.Android\obj\Debug\81\lp\22\jl\res\values\dimen.xml
 item;obj\Debug\81\res\values\styles.xml
+resources;E:\hobby\Pasuke\Pasuke\Pasuke.Android\obj\Debug\81\lp\22\jl\res\values\dimen.xml
+resources;E:\hobby\Pasuke\Pasuke\Pasuke.Android\obj\Debug\81\lp\22\jl\res\values\strings.xml
+resources;E:\hobby\Pasuke\Pasuke\Pasuke.Android\obj\Debug\81\lp\7\jl\res\values\strings.xml
 resources;obj\Debug\81\res\values\styles.xml
+string;E:\hobby\Pasuke\Pasuke\Pasuke.Android\obj\Debug\81\lp\22\jl\res\values\strings.xml
+string;E:\hobby\Pasuke\Pasuke\Pasuke.Android\obj\Debug\81\lp\7\jl\res\values\strings.xml
 style;obj\Debug\81\res\values\styles.xml
