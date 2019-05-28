@@ -1528,21 +1528,6 @@ namespace Pasuke.Droid
 			global::Reactive.Bindings.Resource.Styleable.ViewStubCompat_android_id = global::Pasuke.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Reactive.Bindings.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Pasuke.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::Reactive.Bindings.Resource.Styleable.ViewStubCompat_android_layout = global::Pasuke.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::Pasuke.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::Pasuke.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.activity_horizontal_margin = global::Pasuke.Droid.Resource.Dimension.activity_horizontal_margin;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.activity_vertical_margin = global::Pasuke.Droid.Resource.Dimension.activity_vertical_margin;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.date_text_size = global::Pasuke.Droid.Resource.Dimension.date_text_size;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.date_text_tab_size = global::Pasuke.Droid.Resource.Dimension.date_text_tab_size;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_row_size = global::Pasuke.Droid.Resource.Dimension.month_row_size;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_row_tab_size = global::Pasuke.Droid.Resource.Dimension.month_row_tab_size;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_text_size = global::Pasuke.Droid.Resource.Dimension.month_text_size;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Dimension.month_text_tab_size = global::Pasuke.Droid.Resource.Dimension.month_text_tab_size;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Drawable.Icon = global::Pasuke.Droid.Resource.Drawable.Icon;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Drawable.inputlayout_togglecollapseicon = global::Pasuke.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.Drawable.inputlayout_togglevisibleicon = global::Pasuke.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.String.sfcalendar_inlineviewalldaytext = global::Pasuke.Droid.Resource.String.sfcalendar_inlineviewalldaytext;
-			global::Syncfusion.SfCalendar.XForms.Droid.Resource.String.sfcalendar_inlineviewnoappointmenttext = global::Pasuke.Droid.Resource.String.sfcalendar_inlineviewnoappointmenttext;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::Pasuke.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::Pasuke.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Pasuke.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -1557,6 +1542,10 @@ namespace Pasuke.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::Pasuke.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::Pasuke.Droid.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_out = global::Pasuke.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromLeft = global::Pasuke.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::Pasuke.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::Pasuke.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::Pasuke.Droid.Resource.Animation.ExitToRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.tooltip_enter = global::Pasuke.Droid.Resource.Animation.tooltip_enter;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.tooltip_exit = global::Pasuke.Droid.Resource.Animation.tooltip_exit;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.design_appbar_state_list_animator = global::Pasuke.Droid.Resource.Animator.design_appbar_state_list_animator;
@@ -2335,6 +2324,8 @@ namespace Pasuke.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.expanded_menu = global::Pasuke.Droid.Resource.Id.expanded_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.fill = global::Pasuke.Droid.Resource.Id.fill;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@fixed = global::Pasuke.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_appbar = global::Pasuke.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.flyoutcontent_recycler = global::Pasuke.Droid.Resource.Id.flyoutcontent_recycler;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.forever = global::Pasuke.Droid.Resource.Id.forever;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.ghost_view = global::Pasuke.Droid.Resource.Id.ghost_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::Pasuke.Droid.Resource.Id.home;
@@ -2465,6 +2456,7 @@ namespace Pasuke.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Pasuke.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_view = global::Pasuke.Droid.Resource.Layout.abc_search_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_select_dialog_material = global::Pasuke.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.BottomTabLayout = global::Pasuke.Droid.Resource.Layout.BottomTabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_navigation_item = global::Pasuke.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::Pasuke.Droid.Resource.Layout.design_bottom_sheet_dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_layout_snackbar = global::Pasuke.Droid.Resource.Layout.design_layout_snackbar;
@@ -2479,6 +2471,7 @@ namespace Pasuke.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu = global::Pasuke.Droid.Resource.Layout.design_navigation_menu;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::Pasuke.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_password_icon = global::Pasuke.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::Pasuke.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action = global::Pasuke.Droid.Resource.Layout.notification_action;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_action_tombstone = global::Pasuke.Droid.Resource.Layout.notification_action_tombstone;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_media_action = global::Pasuke.Droid.Resource.Layout.notification_media_action;
@@ -2494,9 +2487,11 @@ namespace Pasuke.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_media_custom = global::Pasuke.Droid.Resource.Layout.notification_template_media_custom;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::Pasuke.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_time = global::Pasuke.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.RootLayout = global::Pasuke.Droid.Resource.Layout.RootLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_item_material = global::Pasuke.Droid.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::Pasuke.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::Pasuke.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::Pasuke.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Pasuke.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.tooltip = global::Pasuke.Droid.Resource.Layout.tooltip;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::Pasuke.Droid.Resource.String.abc_action_bar_home_description;
@@ -3524,6 +3519,18 @@ namespace Pasuke.Droid
 			
 			// aapt resource value: 0x7F01000E
 			public const int design_snackbar_out = 2130771982;
+			
+			// aapt resource value: 0x7F070018
+			public const int EnterFromLeft = 2131165208;
+			
+			// aapt resource value: 0x7F070019
+			public const int EnterFromRight = 2131165209;
+			
+			// aapt resource value: 0x7F070020
+			public const int ExitToLeft = 2131165216;
+			
+			// aapt resource value: 0x7F070021
+			public const int ExitToRight = 2131165217;
 			
 			// aapt resource value: 0x7F01000F
 			public const int tooltip_enter = 2130771983;
@@ -5246,12 +5253,6 @@ namespace Pasuke.Droid
 			// aapt resource value: 0x7F08004A
 			public const int abc_text_size_title_material_toolbar = 2131230794;
 			
-			// aapt resource value: 0x7F070002
-			public const int activity_horizontal_margin = 2131165186;
-			
-			// aapt resource value: 0x7F070003
-			public const int activity_vertical_margin = 2131165187;
-			
 			// aapt resource value: 0x7F080001
 			public const int cardview_compat_inset_shadow = 2131230721;
 			
@@ -5275,12 +5276,6 @@ namespace Pasuke.Droid
 			
 			// aapt resource value: 0x7F080005
 			public const int compat_control_corner_material = 2131230725;
-			
-			// aapt resource value: 0x7F070004
-			public const int date_text_size = 2131165188;
-			
-			// aapt resource value: 0x7F070005
-			public const int date_text_tab_size = 2131165189;
 			
 			// aapt resource value: 0x7F080050
 			public const int design_appbar_elevation = 2131230800;
@@ -5440,18 +5435,6 @@ namespace Pasuke.Droid
 			
 			// aapt resource value: 0x7F080084
 			public const int item_touch_helper_swipe_escape_velocity = 2131230852;
-			
-			// aapt resource value: 0x7F070008
-			public const int month_row_size = 2131165192;
-			
-			// aapt resource value: 0x7F070009
-			public const int month_row_tab_size = 2131165193;
-			
-			// aapt resource value: 0x7F070006
-			public const int month_text_size = 2131165190;
-			
-			// aapt resource value: 0x7F070007
-			public const int month_text_tab_size = 2131165191;
 			
 			// aapt resource value: 0x7F080059
 			public const int mr_controller_volume_group_list_item_height = 2131230809;
@@ -5825,9 +5808,6 @@ namespace Pasuke.Droid
 			
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
-			
-			// aapt resource value: 0x7F060004
-			public const int Icon = 2131099652;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -6360,12 +6340,6 @@ namespace Pasuke.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F060002
-			public const int inputlayout_togglecollapseicon = 2131099650;
-			
-			// aapt resource value: 0x7F060003
-			public const int inputlayout_togglevisibleicon = 2131099651;
-			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
 			
@@ -6562,6 +6536,12 @@ namespace Pasuke.Droid
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
+			// aapt resource value: 0x7F010175
+			public const int bottomtab.navarea = 2130772341;
+			
+			// aapt resource value: 0x7F010176
+			public const int bottomtab.tabbar = 2130772342;
+			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
 			
@@ -6634,6 +6614,12 @@ namespace Pasuke.Droid
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
+			// aapt resource value: 0x7F010177
+			public const int flyoutcontent_appbar = 2130772343;
+			
+			// aapt resource value: 0x7F010178
+			public const int flyoutcontent_recycler = 2130772344;
+			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
 			
@@ -6678,6 +6664,18 @@ namespace Pasuke.Droid
 			
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
+			
+			// aapt resource value: 0x7F010179
+			public const int main.appbar = 2130772345;
+			
+			// aapt resource value: 0x7F010182
+			public const int main.scrollview = 2130772354;
+			
+			// aapt resource value: 0x7F010181
+			public const int main.tablayout = 2130772353;
+			
+			// aapt resource value: 0x7F010180
+			public const int main.toolbar = 2130772352;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -6876,6 +6874,15 @@ namespace Pasuke.Droid
 			
 			// aapt resource value: 0x7F0C0069
 			public const int select_dialog_listview = 2131492969;
+			
+			// aapt resource value: 0x7F010183
+			public const int shellcontent.appbar = 2130772355;
+			
+			// aapt resource value: 0x7F010185
+			public const int shellcontent.scrollview = 2130772357;
+			
+			// aapt resource value: 0x7F010184
+			public const int shellcontent.toolbar = 2130772356;
 			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
@@ -7165,6 +7172,9 @@ namespace Pasuke.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
+			// aapt resource value: 0x7F020071
+			public const int BottomTabLayout = 2130837617;
+			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
 			
@@ -7206,6 +7216,9 @@ namespace Pasuke.Droid
 			
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
+			
+			// aapt resource value: 0x7F020072
+			public const int FlyoutContent = 2130837618;
 			
 			// aapt resource value: 0x7F020002
 			public const int Main = 2130837506;
@@ -7273,6 +7286,9 @@ namespace Pasuke.Droid
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
+			// aapt resource value: 0x7F020073
+			public const int RootLayout = 2130837619;
+			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
 			
@@ -7281,6 +7297,9 @@ namespace Pasuke.Droid
 			
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
+			
+			// aapt resource value: 0x7F020074
+			public const int ShellContent = 2130837620;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
@@ -7514,12 +7533,6 @@ namespace Pasuke.Droid
 			
 			// aapt resource value: 0x7F150026
 			public const int search_menu_title = 2132082726;
-			
-			// aapt resource value: 0x7F040005
-			public const int sfcalendar_inlineviewalldaytext = 2130968581;
-			
-			// aapt resource value: 0x7F040004
-			public const int sfcalendar_inlineviewnoappointmenttext = 2130968580;
 			
 			// aapt resource value: 0x7F150001
 			public const int status_bar_notification_info_overflow = 2132082689;
@@ -8790,11 +8803,11 @@ namespace Pasuke.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F080047
-			public const int ActionBarLayout_android_layout_gravity = 2131230791;
+			// aapt resource value: 0x7F060047
+			public const int ActionBarLayout_android_layout_gravity = 2131099719;
 			
-			// aapt resource value: 0x7F080017
-			public const int ActionBar_background = 2131230743;
+			// aapt resource value: 0x7F060017
+			public const int ActionBar_background = 2131099671;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -8883,8 +8896,8 @@ namespace Pasuke.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F080049
-			public const int ActionMenuItemView_android_minWidth = 2131230793;
+			// aapt resource value: 0x7F060049
+			public const int ActionMenuItemView_android_minWidth = 2131099721;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -8894,8 +8907,8 @@ namespace Pasuke.Droid
 					2130968847,
 					2130968901};
 			
-			// aapt resource value: 0x7F080051
-			public const int ActionMode_background = 2131230801;
+			// aapt resource value: 0x7F060051
+			public const int ActionMode_background = 2131099729;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -8916,8 +8929,8 @@ namespace Pasuke.Droid
 					2130968704,
 					2130968746};
 			
-			// aapt resource value: 0x7F080058
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131230808;
+			// aapt resource value: 0x7F060058
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131099736;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -8931,8 +8944,8 @@ namespace Pasuke.Droid
 					2130968828,
 					2130968829};
 			
-			// aapt resource value: 0x7F080061
-			public const int AlertDialog_android_layout = 2131230817;
+			// aapt resource value: 0x7F060061
+			public const int AlertDialog_android_layout = 2131099745;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -8963,14 +8976,14 @@ namespace Pasuke.Droid
 					2130968838,
 					2130968839};
 			
-			// aapt resource value: 0x7F080075
-			public const int AppBarLayoutStates_state_collapsed = 2131230837;
+			// aapt resource value: 0x7F060075
+			public const int AppBarLayoutStates_state_collapsed = 2131099765;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F080069
-			public const int AppBarLayout_android_background = 2131230825;
+			// aapt resource value: 0x7F060069
+			public const int AppBarLayout_android_background = 2131099753;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -8988,8 +9001,8 @@ namespace Pasuke.Droid
 					2130968765,
 					2130968766};
 			
-			// aapt resource value: 0x7F080078
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131230840;
+			// aapt resource value: 0x7F060078
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131099768;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -9000,8 +9013,8 @@ namespace Pasuke.Droid
 					2130968889,
 					2130968890};
 			
-			// aapt resource value: 0x7F080081
-			public const int AppCompatImageView_android_src = 2131230849;
+			// aapt resource value: 0x7F060081
+			public const int AppCompatImageView_android_src = 2131099777;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -9018,8 +9031,8 @@ namespace Pasuke.Droid
 					2130968887,
 					2130968888};
 			
-			// aapt resource value: 0x7F080086
-			public const int AppCompatSeekBar_android_thumb = 2131230854;
+			// aapt resource value: 0x7F060086
+			public const int AppCompatSeekBar_android_thumb = 2131099782;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -9039,8 +9052,8 @@ namespace Pasuke.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F080091
-			public const int AppCompatTextHelper_android_drawableBottom = 2131230865;
+			// aapt resource value: 0x7F060091
+			public const int AppCompatTextHelper_android_drawableBottom = 2131099793;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -9070,8 +9083,8 @@ namespace Pasuke.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F080099
-			public const int AppCompatTextView_android_textAppearance = 2131230873;
+			// aapt resource value: 0x7F060099
+			public const int AppCompatTextView_android_textAppearance = 2131099801;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -9215,8 +9228,8 @@ namespace Pasuke.Droid
 					2130968921,
 					2130968922};
 			
-			// aapt resource value: 0x7F080108
-			public const int AppCompatTheme_actionBarDivider = 2131230984;
+			// aapt resource value: 0x7F060108
+			public const int AppCompatTheme_actionBarDivider = 2131099912;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -9579,8 +9592,8 @@ namespace Pasuke.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F080228
-			public const int BottomNavigationView_elevation = 2131231272;
+			// aapt resource value: 0x7F060228
+			public const int BottomNavigationView_elevation = 2131100200;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -9599,8 +9612,8 @@ namespace Pasuke.Droid
 					2130968635,
 					2130968636};
 			
-			// aapt resource value: 0x7F080234
-			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131231284;
+			// aapt resource value: 0x7F060234
+			public const int BottomSheetBehavior_Layout_behavior_hideable = 2131100212;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 1;
@@ -9611,8 +9624,8 @@ namespace Pasuke.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F080238
-			public const int ButtonBarLayout_allowStacking = 2131231288;
+			// aapt resource value: 0x7F060238
+			public const int ButtonBarLayout_allowStacking = 2131100216;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -9629,8 +9642,8 @@ namespace Pasuke.Droid
 					2130968586,
 					2130968587};
 			
-			// aapt resource value: 0x7F080541
-			public const int CardView_android_minHeight = 2131232065;
+			// aapt resource value: 0x7F060541
+			public const int CardView_android_minHeight = 2131100993;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -9686,8 +9699,8 @@ namespace Pasuke.Droid
 					2130968892,
 					2130968902};
 			
-			// aapt resource value: 0x7F080240
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131231296;
+			// aapt resource value: 0x7F060240
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131100224;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -9720,8 +9733,8 @@ namespace Pasuke.Droid
 					2130968760,
 					2130968761};
 			
-			// aapt resource value: 0x7F080257
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131231319;
+			// aapt resource value: 0x7F060257
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131100247;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -9749,8 +9762,8 @@ namespace Pasuke.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F080260
-			public const int ColorStateListItem_alpha = 2131231328;
+			// aapt resource value: 0x7F060260
+			public const int ColorStateListItem_alpha = 2131100256;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -9763,8 +9776,8 @@ namespace Pasuke.Droid
 					2130968650,
 					2130968651};
 			
-			// aapt resource value: 0x7F080264
-			public const int CompoundButton_android_button = 2131231332;
+			// aapt resource value: 0x7F060264
+			public const int CompoundButton_android_button = 2131100260;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -9776,8 +9789,8 @@ namespace Pasuke.Droid
 					2130968754,
 					2130968840};
 			
-			// aapt resource value: 0x7F080268
-			public const int CoordinatorLayout_keylines = 2131231336;
+			// aapt resource value: 0x7F060268
+			public const int CoordinatorLayout_keylines = 2131100264;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -9788,8 +9801,8 @@ namespace Pasuke.Droid
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F080271
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131231345;
+			// aapt resource value: 0x7F060271
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131100273;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -9817,8 +9830,8 @@ namespace Pasuke.Droid
 					2130968640,
 					2130968879};
 			
-			// aapt resource value: 0x7F080279
-			public const int DesignTheme_bottomSheetDialogTheme = 2131231353;
+			// aapt resource value: 0x7F060279
+			public const int DesignTheme_bottomSheetDialogTheme = 2131100281;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -9836,8 +9849,8 @@ namespace Pasuke.Droid
 					2130968831,
 					2130968882};
 			
-			// aapt resource value: 0x7F080283
-			public const int DrawerArrowToggle_arrowHeadLength = 2131231363;
+			// aapt resource value: 0x7F060283
+			public const int DrawerArrowToggle_arrowHeadLength = 2131100291;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -9870,8 +9883,8 @@ namespace Pasuke.Droid
 					2130968816,
 					2130968911};
 			
-			// aapt resource value: 0x7F080292
-			public const int FloatingActionButton_backgroundTint = 2131231378;
+			// aapt resource value: 0x7F060292
+			public const int FloatingActionButton_backgroundTint = 2131100306;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -9879,8 +9892,8 @@ namespace Pasuke.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F080301
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131231489;
+			// aapt resource value: 0x7F060301
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131100417;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -9916,8 +9929,8 @@ namespace Pasuke.Droid
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F080010
-			public const int FontFamilyFont_android_font = 2131230736;
+			// aapt resource value: 0x7F060010
+			public const int FontFamilyFont_android_font = 2131099664;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -9934,8 +9947,8 @@ namespace Pasuke.Droid
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F080003
-			public const int FontFamily_fontProviderAuthority = 2131230723;
+			// aapt resource value: 0x7F060003
+			public const int FontFamily_fontProviderAuthority = 2131099651;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -9957,8 +9970,8 @@ namespace Pasuke.Droid
 					16843264,
 					2130968729};
 			
-			// aapt resource value: 0x7F080303
-			public const int ForegroundLinearLayout_android_foreground = 2131231491;
+			// aapt resource value: 0x7F060303
+			public const int ForegroundLinearLayout_android_foreground = 2131100419;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -9977,8 +9990,8 @@ namespace Pasuke.Droid
 					2130968782,
 					2130968826};
 			
-			// aapt resource value: 0x7F080307
-			public const int LinearLayoutCompat_android_baselineAligned = 2131231495;
+			// aapt resource value: 0x7F060307
+			public const int LinearLayoutCompat_android_baselineAligned = 2131100423;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -10004,8 +10017,8 @@ namespace Pasuke.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F080317
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131231511;
+			// aapt resource value: 0x7F060317
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131100439;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -10026,8 +10039,8 @@ namespace Pasuke.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F080322
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131231522;
+			// aapt resource value: 0x7F060322
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131100450;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -10038,8 +10051,8 @@ namespace Pasuke.Droid
 					2130968688,
 					2130968732};
 			
-			// aapt resource value: 0x7F080555
-			public const int MediaRouteButton_android_minHeight = 2131232085;
+			// aapt resource value: 0x7F060555
+			public const int MediaRouteButton_android_minHeight = 2131101013;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -10058,8 +10071,8 @@ namespace Pasuke.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F080325
-			public const int MenuGroup_android_checkableBehavior = 2131231525;
+			// aapt resource value: 0x7F060325
+			public const int MenuGroup_android_checkableBehavior = 2131100453;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -10101,8 +10114,8 @@ namespace Pasuke.Droid
 					2130968825,
 					2130968907};
 			
-			// aapt resource value: 0x7F080332
-			public const int MenuItem_actionLayout = 2131231538;
+			// aapt resource value: 0x7F060332
+			public const int MenuItem_actionLayout = 2131100466;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -10181,8 +10194,8 @@ namespace Pasuke.Droid
 					2130968805,
 					2130968842};
 			
-			// aapt resource value: 0x7F080356
-			public const int MenuView_android_headerBackground = 2131231574;
+			// aapt resource value: 0x7F060356
+			public const int MenuView_android_headerBackground = 2131100502;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -10220,8 +10233,8 @@ namespace Pasuke.Droid
 					2130968753,
 					2130968783};
 			
-			// aapt resource value: 0x7F080366
-			public const int NavigationView_android_background = 2131231590;
+			// aapt resource value: 0x7F060366
+			public const int NavigationView_android_background = 2131100518;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -10258,11 +10271,11 @@ namespace Pasuke.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968837};
 			
-			// aapt resource value: 0x7F080381
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131231617;
+			// aapt resource value: 0x7F060381
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131100545;
 			
-			// aapt resource value: 0x7F080377
-			public const int PopupWindow_android_popupAnimationStyle = 2131231607;
+			// aapt resource value: 0x7F060377
+			public const int PopupWindow_android_popupAnimationStyle = 2131100535;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -10274,8 +10287,8 @@ namespace Pasuke.Droid
 					2130968790,
 					2130968793};
 			
-			// aapt resource value: 0x7F080383
-			public const int RecycleListView_paddingBottomNoButtons = 2131231619;
+			// aapt resource value: 0x7F060383
+			public const int RecycleListView_paddingBottomNoButtons = 2131100547;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -10293,8 +10306,8 @@ namespace Pasuke.Droid
 					2130968830,
 					2130968836};
 			
-			// aapt resource value: 0x7F080386
-			public const int RecyclerView_android_descendantFocusability = 2131231622;
+			// aapt resource value: 0x7F060386
+			public const int RecyclerView_android_descendantFocusability = 2131100550;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -10329,14 +10342,14 @@ namespace Pasuke.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968747};
 			
-			// aapt resource value: 0x7F080398
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131231640;
+			// aapt resource value: 0x7F060398
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131100568;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968634};
 			
-			// aapt resource value: 0x7F080400
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131231744;
+			// aapt resource value: 0x7F060400
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131100672;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -10357,8 +10370,8 @@ namespace Pasuke.Droid
 					2130968848,
 					2130968912};
 			
-			// aapt resource value: 0x7F080402
-			public const int SearchView_android_focusable = 2131231746;
+			// aapt resource value: 0x7F060402
+			public const int SearchView_android_focusable = 2131100674;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -10413,8 +10426,8 @@ namespace Pasuke.Droid
 					2130968701,
 					2130968780};
 			
-			// aapt resource value: 0x7F080420
-			public const int SnackbarLayout_android_maxWidth = 2131231776;
+			// aapt resource value: 0x7F060420
+			public const int SnackbarLayout_android_maxWidth = 2131100704;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -10429,8 +10442,8 @@ namespace Pasuke.Droid
 					16843131,
 					2130968803};
 			
-			// aapt resource value: 0x7F080424
-			public const int Spinner_android_dropDownWidth = 2131231780;
+			// aapt resource value: 0x7F060424
+			public const int Spinner_android_dropDownWidth = 2131100708;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -10460,8 +10473,8 @@ namespace Pasuke.Droid
 					2130968909,
 					2130968910};
 			
-			// aapt resource value: 0x7F080430
-			public const int SwitchCompat_android_textOff = 2131231792;
+			// aapt resource value: 0x7F060430
+			public const int SwitchCompat_android_textOff = 2131100720;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -10507,8 +10520,8 @@ namespace Pasuke.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F080445
-			public const int TabItem_android_icon = 2131231813;
+			// aapt resource value: 0x7F060445
+			public const int TabItem_android_icon = 2131100741;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -10534,8 +10547,8 @@ namespace Pasuke.Droid
 					2130968867,
 					2130968868};
 			
-			// aapt resource value: 0x7F080449
-			public const int TabLayout_tabBackground = 2131231817;
+			// aapt resource value: 0x7F060449
+			public const int TabLayout_tabBackground = 2131100745;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -10597,8 +10610,8 @@ namespace Pasuke.Droid
 					2130968720,
 					2130968869};
 			
-			// aapt resource value: 0x7F080466
-			public const int TextAppearance_android_fontFamily = 2131231846;
+			// aapt resource value: 0x7F060466
+			public const int TextAppearance_android_fontFamily = 2131100774;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -10654,8 +10667,8 @@ namespace Pasuke.Droid
 					2130968800,
 					2130968801};
 			
-			// aapt resource value: 0x7F080480
-			public const int TextInputLayout_android_hint = 2131231872;
+			// aapt resource value: 0x7F060480
+			public const int TextInputLayout_android_hint = 2131100800;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -10733,8 +10746,8 @@ namespace Pasuke.Droid
 					2130968899,
 					2130968900};
 			
-			// aapt resource value: 0x7F080497
-			public const int Toolbar_android_gravity = 2131231895;
+			// aapt resource value: 0x7F060497
+			public const int Toolbar_android_gravity = 2131100823;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -10832,8 +10845,8 @@ namespace Pasuke.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F080533
-			public const int ViewBackgroundHelper_android_background = 2131232051;
+			// aapt resource value: 0x7F060533
+			public const int ViewBackgroundHelper_android_background = 2131100979;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -10846,8 +10859,8 @@ namespace Pasuke.Droid
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F080537
-			public const int ViewStubCompat_android_id = 2131232055;
+			// aapt resource value: 0x7F060537
+			public const int ViewStubCompat_android_id = 2131100983;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -10855,8 +10868,8 @@ namespace Pasuke.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F080527
-			public const int View_android_focusable = 2131232039;
+			// aapt resource value: 0x7F060527
+			public const int View_android_focusable = 2131100967;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;

@@ -65,10 +65,6 @@
               "target": "Package",
               "version": "[3.4.0, )"
             },
-            "Syncfusion.Xamarin.SfCalendar": {
-              "target": "Package",
-              "version": "[17.1.0.48, )"
-            },
             "XamForms.Controls.Calendar": {
               "target": "Package",
               "version": "[1.1.1, )"
@@ -77,9 +73,9 @@
               "target": "Package",
               "version": "[4.0.0.425677, )"
             },
-            "sqlite-net-pcl": {
+            "Xamarin.Forms.BehaviorsPack": {
               "target": "Package",
-              "version": "[1.5.231, )"
+              "version": "[2.1.1, )"
             }
           },
           "imports": [

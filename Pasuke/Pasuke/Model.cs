@@ -21,9 +21,11 @@ namespace Pasuke.Model
             {
                 DateTimeOffset startdate = new DateTimeOffset(item.Year, item.Month, item.Day, start.Hours, start.Minutes, 0, TimeSpan.Zero);
                 DateTimeOffset enddate = new DateTimeOffset(item.Year, item.Month, item.Day, end.Hours, end.Minutes, 0, TimeSpan.Zero);
-                bool existdata= realm.All<Shiftdata>().Any(x => x.StartDate == startdate);
                
-                if(!(existdata))
+                bool existdata = realm.All<Shiftdata>().Where(x => x.StartDate == startdate 
+                                                              || x.EndDate == enddate ).Any();
+
+                if (!existdata)
                 {
                     realm.Write(() =>
                     {
@@ -33,12 +35,22 @@ namespace Pasuke.Model
                 }
             }
         }
-
-      public IOrderedQueryable GetItems()
+        public void deletedata(string startdate)
         {
-            var realm = Realm.GetInstance();
-            var p = realm.All<Shiftdata>().OrderBy(a => a.StartDate);
-            return p;
+            DateTimeOffset todate = DateTimeOffset.Parse(startdate);
+            Console.WriteLine(todate);
+            Realm realm = Realm.GetInstance();
+            var removedata = realm.All<Shiftdata>().Where(r => r.StartDate == todate).First();
+
+            realm.Write(() =>
+            {
+                realm.Remove(removedata);
+            });
+        }
+        public void deletedb()
+        {
+            var config = new RealmConfiguration();
+            Realm.DeleteRealm(config);
         }
     }
 
@@ -52,7 +64,9 @@ namespace Pasuke.Model
 
     public class schedule
     {
-        public DateTimeOffset startdate { get; set; }
-        public DateTimeOffset enddate { get; set; }
+        public string Date { get; set; }
+        public string StartDate { get; set; }
+        public string EndDate { get; set; }
+
     }
 }

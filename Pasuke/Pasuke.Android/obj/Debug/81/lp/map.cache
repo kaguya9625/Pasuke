@@ -11,17 +11,6 @@ Realm.DataBinding
 Realm
 Realm.Sync
 Remotion.Linq
-SQLite-net
-SQLitePCLRaw.batteries_green
-SQLitePCLRaw.batteries_v2
-SQLitePCLRaw.core
-SQLitePCLRaw.lib.e_sqlite3
-SQLitePCLRaw.provider.e_sqlite3
-Syncfusion.Core.XForms.Android
-Syncfusion.Core.XForms
-Syncfusion.Licensing
-Syncfusion.SfCalendar.XForms.Android
-Syncfusion.SfCalendar.XForms
 System.Reactive
 System.Runtime.CompilerServices.Unsafe
 System.Runtime
@@ -35,6 +24,7 @@ Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat
 Xamarin.Android.Support.Core.UI
 Xamarin.Android.Support.Core.Utils
+Xamarin.Android.Support.CustomTabs
 Xamarin.Android.Support.Design
 Xamarin.Android.Support.Fragment
 Xamarin.Android.Support.Media.Compat
@@ -46,13 +36,13 @@ Xamarin.Android.Support.v7.MediaRouter
 Xamarin.Android.Support.v7.Palette
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
+Xamarin.Forms.BehaviorsPack
 Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 XamForms.Controls.Calendar
 XamForms.Controls.Calendar.Droid
-Xamarin.Android.Support.CustomTabs
 netstandard
 System.Resources.ResourceManager
 System.Runtime.Numerics
@@ -79,6 +69,5 @@ System.Runtime.Handles
 System.IO.FileSystem
 System.Linq.Queryable
 System.Console
-System.Diagnostics.Tools
 System.Threading.Tasks.Extensions
 System.Runtime.InteropServices.WindowsRuntime

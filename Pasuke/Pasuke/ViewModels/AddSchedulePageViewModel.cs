@@ -21,17 +21,7 @@ namespace Pasuke.ViewModels
 
         public DelegateCommand Mode1Command { get; set; }
 
-
-        public AddSchedulePageViewModel(INavigationService navigationService)
-            : base(navigationService)
-        {
-            
-            ButtonText = "シフト入力";
-            Enable = true; //ボタンの有効化
-            StartTime = new TimeSpan(17, 00, 00);//業務開始時間初期設定
-            EndTime = new TimeSpan(21, 30, 00);//業務終了時間初期設定
-            Mode1Command = new DelegateCommand(Mode1);
-        }
+       
         List<DateTimeOffset> ShiftList = new List<DateTimeOffset>();
         
         private TimeSpan _starttime;
@@ -40,20 +30,13 @@ namespace Pasuke.ViewModels
             get => _starttime;
             set => SetProperty(ref _starttime, value);
         }
-
+      
 
         private TimeSpan _endtime;
         public TimeSpan EndTime
         {
             get => _endtime;
             set => SetProperty(ref _endtime, value);
-        }
-
-        private int _check;
-        public int Check
-        {
-            get => _check;
-            set => SetProperty(ref _check, value);
         }
 
         private string _info;
@@ -77,41 +60,81 @@ namespace Pasuke.ViewModels
             set => SetProperty(ref _enable, value);
         }
 
+        private bool _timeenable;
+        public bool TimeEnable
+        {
+            get => _timeenable;
+            set => SetProperty(ref _timeenable, value);
+        }
+        public AddSchedulePageViewModel(INavigationService navigationService)
+           : base(navigationService)
+        {
+            ButtonText = "シフト入力";
+            TimeEnable = true;
+            Enable = true; //ボタンの有効化
+            StartTime = new TimeSpan(17, 00, 00);//業務開始時間初期設定
+            EndTime = new TimeSpan(21, 30, 00);//業務終了時間初期設定
+            Mode1Command = new DelegateCommand(Mode1);
+        }
+        int Check = 0;
         private async void Mode1()
         {
-            if (Check != 1)
+            switch (Check)
             {
-                Check = 1;
-                info = "出勤日を選択してください";
-                
-                ButtonText = "終了";
-            }
-            else
-            {
-                Check = 0;
-                Enable = false;
-                info = "出勤日が登録されました";
-                ButtonText = "シフト入力";
-                await Task.Delay(3000);
-                _model.dbset(ShiftList, StartTime, EndTime);
-                ShiftList.Clear();
-                Enable = true;
-                info = "";
-                
+                case 0:
+                    TimeEnable = false;
+                    Check = 2;
+                    info = "出勤日を選択してください";
+                    ButtonText = "終了";
+                    break;
+
+                case 1:  
+                    _model.dbset(ShiftList, StartTime, EndTime);
+                    ShiftList.Clear();
+                    Enable = false;
+                    ButtonText = "シフト入力";
+                    info = "出勤日が登録されました";
+                    await Task.Delay(2000);
+                    Enable = true;
+                    TimeEnable = true;
+                    info = "";
+                    Check = 0;
+                    break;
+
+                case 2:
+                    ButtonText = "シフト入力";
+                    Enable = true;
+                    TimeEnable = true;
+                    info = "";
+                    Check = 0;
+                    break;
+
+                default:
+                    info = "error";
+                    break;
             }
         }
 
         public ICommand DateCommand => new Command((obj) =>
         {
 
-            if (Check == 1)
+            if (Check != 0)
             {
                 //リストが空、または既に追加されてないならリストに追加
                 DateTime date = (DateTime)obj;
-                if ((ShiftList?.Count > 0 == false) || !ShiftList.Contains(date))
+                if ((ShiftList?.Count > 0 == false) || (!ShiftList.Contains(date)))
                 {
                     ShiftList.Add(date);
-                }
+                    Check = 1;
+                }else if(ShiftList.Contains(date))
+                {
+                    ShiftList.Remove(date);
+                    Check = 1;
+                }    
+            }
+            foreach(var a in ShiftList)
+            {
+                Console.WriteLine(a);
             }
         });
 

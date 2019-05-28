@@ -4,7 +4,6 @@
              xmlns:Views="clr-namespace:Pasuke.Views"
              x:Class="Pasuke.Views.MainPage">
     <TabbedPage.Children>
-        <Views:ResultPage/>
         <Views:SchedulePage/>
         <Views:AddSchedulePage/>
     </TabbedPage.Children>

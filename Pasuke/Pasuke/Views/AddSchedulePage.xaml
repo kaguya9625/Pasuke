@@ -9,7 +9,6 @@
              Title="シフト入力"
              Icon="Add.png">
 
-
     <!-- 親Gridの追加
     列:3
     行:2-->
@@ -34,16 +33,16 @@
         <!--カレンダーの追加-->
         <controls:Calendar x:Name="_calendar" 
                            Padding="10,50,0,0"
-                           StartDay="Monday"
+                           StartDay="Sunday"
                            SelectedBorderWidth="2"
-                           SelectedBorderColor="Gold"
+                           SelectedBorderColor="Blue"
                            DisabledBorderColor="Black"
                            TitleLabelFormat="yyyy年MM月"
                            Grid.Column="0"
                            Grid.ColumnSpan="3"
                            Grid.Row="0"
-                           SpecialDates="{Binding Path=SpecialDates}"
                            DateCommand="{Binding Path=DateCommand}"/>
+        
         <!--親Gridの2列目にGridを生成-->
         <Grid  ColumnSpacing="0" 
                RowSpacing="0"
@@ -74,7 +73,7 @@
                     HorizontalOptions="Center"
                     VerticalOptions="Center" 
                     Format="tt HH:mm"
-                     
+                    IsEnabled="{Binding Path = TimeEnable}"
                     Time="{Binding Path = StartTime}" />
 
             <Label Grid.Column="1"
@@ -91,6 +90,7 @@
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
                     Format="tt HH:mm"
+                    IsEnabled="{Binding Path = TimeEnable}"
                     Time="{Binding Path = EndTime}" />
 
             <Button x:Name="Mode1"
@@ -99,7 +99,7 @@
                     Text="{Binding Path=ButtonText}"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
-                    IsEnabled="{Binding Path=Enable}"
+                    IsEnabled="{Binding Path = Enable}"
                     Command="{Binding Path = Mode1Command}"/>
         </Grid>
     </Grid>

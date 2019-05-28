@@ -33,7 +33,6 @@ namespace Pasuke
         {
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage>();
-            containerRegistry.RegisterForNavigation<ResultPage>();
             containerRegistry.RegisterForNavigation<AddSchedulePage>();
             containerRegistry.RegisterForNavigation<SchedulePage>();
         }

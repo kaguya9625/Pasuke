@@ -8,6 +8,9 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using XamForms.Controls;
 using PublicHoliday;
+using Realms;
+using Pasuke.Model;
+using System.Collections.ObjectModel;
 
 namespace Pasuke.Views
 {
@@ -16,7 +19,7 @@ namespace Pasuke.Views
         public AddSchedulePage()
         {
             InitializeComponent();
-
+           
             _calendar.SpecialDates = new List<SpecialDate>
             {
                 new SpecialDate(DateTime.Now)
@@ -25,7 +28,8 @@ namespace Pasuke.Views
                     BorderWidth = 3,
                     Selectable = true
                 }
-            };
+            };    
+
             Today();
         }
         private void Today()

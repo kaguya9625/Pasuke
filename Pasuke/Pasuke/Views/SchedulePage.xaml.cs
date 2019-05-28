@@ -7,12 +7,17 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Pasuke.Model;
+using Prism.Services;
 
 namespace Pasuke.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SchedulePage : ContentPage
     {
+        private PasukeModel _model = new PasukeModel();
+
+
         public SchedulePage()
         {
             InitializeComponent();

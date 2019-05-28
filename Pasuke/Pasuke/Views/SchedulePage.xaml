@@ -5,42 +5,72 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              NavigationPage.HasNavigationBar="False"
+             xmlns:behaviors="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
              Title="シフト予定"
              Icon="Calender.png">
-
-    <StackLayout>
-        <ListView ItemsSource="{Binding ListView}" Header="出勤予定日" HasUnevenRows="True">
-
-                <ListView.ItemTemplate>
+    
+    <StackLayout Padding="15,0,15,0">
+        <Label Text="{Binding Path=Info}"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <StackLayout Orientation="Horizontal">
+            <!--<DatePicker Format="MM"
+                        Scale="1.5"
+                        Date="{Binding SortDate}"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="Center" />
+            <Button Text="ソート"
+                    HorizontalOptions="CenterAndExpand"
+                    Command="{Binding Sort}"/>-->
+            <Button Text="削除"
+                    HorizontalOptions="CenterAndExpand"
+                    Command="{Binding Delete}"
+                    IsEnabled="{Binding Enbale}"/>
+        </StackLayout>
+     <ListView ItemsSource="{Binding Path = ListView}">
+            <ListView.Behaviors>
+                <behaviors:EventToCommandBehavior
+                               EventName="ItemTapped"
+                               EventArgsPropertyPath="Item"
+                               Command="{Binding SelectedCommand}"/>
+            </ListView.Behaviors>
+            <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid BackgroundColor="White"
-                              Margin="4">
+                            <Grid 
+                              Margin="5">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="2"/>
-                                </Grid.ColumnDefinitions>
-                                <Label Grid.Column="0"
-                                   Text="{Binding StartDate}"
-                                   Margin="4"
-                                   HorizontalOptions="Start"
+                                    <ColumnDefinition Width="1.4*"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="20"/>
+                                    <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+                                
+                            <Label Grid.Column="0"
+                                   Text="{Binding Date}"
+                                   HorizontalOptions="Center"
                                    VerticalOptions="Center"
                                    HeightRequest="25"
                                    TextColor="Black"/>
-                                <Label Text="～"
-                                   Grid.Column="1"
+                            <Label Grid.Column="1"
+                                   Text="{Binding StartDate}"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   HeightRequest="25"
+                                   TextColor="Black"/>
+
+                            <Label Text="～"
+                                   Grid.Column="2"
                                    HorizontalOptions="Start"
                                    VerticalOptions="Center"/>
-                                <Label Grid.Column="2"
+
+                            <Label Grid.Column="3"
                                    Text="{Binding EndDate}"
-                                   Margin="4"
-                                   HorizontalOptions="Start"
+                                   HorizontalOptions="Center"
                                    VerticalOptions="Center"
                                    HeightRequest="25"
-                                   
                                    TextColor="Black"/>
-                            </Grid>
+                        </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
