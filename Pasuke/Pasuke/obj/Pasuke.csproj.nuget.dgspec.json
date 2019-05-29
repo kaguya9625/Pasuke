@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj": {}
+    "D:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj": {}
   },
   "projects": {
-    "E:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj": {
+    "D:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj",
+        "projectUniqueName": "D:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj",
         "projectName": "Pasuke",
-        "projectPath": "E:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj",
-        "packagesPath": "C:\\Users\\Kazuki\\.nuget\\packages\\",
-        "outputPath": "E:\\hobby\\Pasuke\\Pasuke\\Pasuke\\obj\\",
+        "projectPath": "D:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj",
+        "packagesPath": "C:\\Users\\k016c1308\\.nuget\\packages\\",
+        "outputPath": "D:\\hobby\\Pasuke\\Pasuke\\Pasuke\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kazuki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\k016c1308\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

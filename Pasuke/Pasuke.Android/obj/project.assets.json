@@ -1936,7 +1936,7 @@
       ]
     },
     "Xamarin.Android.Support.CustomTabs/28.0.0.1": {
-      "sha512": "5qlW03KaJDkixyHNjAR4LKuWMGXU48mtHvDFFkdghDtyYskcH0uePXs+B4UUQErFmmJexR8NcIusI2BN6E5HUA==",
+      "sha512": "INbnBbSWwClVztNUkpyruXXkWWawbtOV6RxW0q7htqRWSUeLK8JhN6tboyhTGW3lV0iy8IebPyNyniNLOVVVFw==",
       "type": "package",
       "path": "xamarin.android.support.customtabs/28.0.0.1",
       "files": [
@@ -2510,24 +2510,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kazuki\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\k016c1308\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\hobby\\Pasuke\\Pasuke\\Pasuke.Android\\Pasuke.Android.csproj",
+      "projectUniqueName": "D:\\hobby\\Pasuke\\Pasuke\\Pasuke.Android\\Pasuke.Android.csproj",
       "projectName": "Pasuke.Android",
-      "projectPath": "E:\\hobby\\Pasuke\\Pasuke\\Pasuke.Android\\Pasuke.Android.csproj",
-      "packagesPath": "C:\\Users\\Kazuki\\.nuget\\packages\\",
-      "outputPath": "E:\\hobby\\Pasuke\\Pasuke\\Pasuke.Android\\obj\\",
+      "projectPath": "D:\\hobby\\Pasuke\\Pasuke\\Pasuke.Android\\Pasuke.Android.csproj",
+      "packagesPath": "C:\\Users\\k016c1308\\.nuget\\packages\\",
+      "outputPath": "D:\\hobby\\Pasuke\\Pasuke\\Pasuke.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kazuki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\k016c1308\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2541,8 +2541,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "E:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj": {
-              "projectPath": "E:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj"
+            "D:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj": {
+              "projectPath": "D:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj"
             }
           }
         }

@@ -3209,24 +3209,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kazuki\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\k016c1308\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\hobby\\Pasuke\\Pasuke\\Pasuke.iOS\\Pasuke.iOS.csproj",
+      "projectUniqueName": "D:\\hobby\\Pasuke\\Pasuke\\Pasuke.iOS\\Pasuke.iOS.csproj",
       "projectName": "Pasuke.iOS",
-      "projectPath": "E:\\hobby\\Pasuke\\Pasuke\\Pasuke.iOS\\Pasuke.iOS.csproj",
-      "packagesPath": "C:\\Users\\Kazuki\\.nuget\\packages\\",
-      "outputPath": "E:\\hobby\\Pasuke\\Pasuke\\Pasuke.iOS\\obj\\",
+      "projectPath": "D:\\hobby\\Pasuke\\Pasuke\\Pasuke.iOS\\Pasuke.iOS.csproj",
+      "packagesPath": "C:\\Users\\k016c1308\\.nuget\\packages\\",
+      "outputPath": "D:\\hobby\\Pasuke\\Pasuke\\Pasuke.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kazuki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\k016c1308\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -3240,8 +3240,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj": {
-              "projectPath": "E:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj"
+            "D:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj": {
+              "projectPath": "D:\\hobby\\Pasuke\\Pasuke\\Pasuke\\Pasuke.csproj"
             }
           }
         }

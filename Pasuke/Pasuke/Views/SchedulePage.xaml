@@ -10,10 +10,12 @@
              Icon="Calender.png">
     
     <StackLayout Padding="15,0,15,0">
+        <!--インフォメーション用ラベル-->
         <Label Text="{Binding Path=Info}"
                HorizontalOptions="Center"
                VerticalOptions="Center"/>
         <StackLayout Orientation="Horizontal">
+            <!--以下のDatePickerとButtonはソート機能搭載の残骸です-->
             <!--<DatePicker Format="MM"
                         Scale="1.5"
                         Date="{Binding SortDate}"
@@ -22,11 +24,13 @@
             <Button Text="ソート"
                     HorizontalOptions="CenterAndExpand"
                     Command="{Binding Sort}"/>-->
-            <Button Text="削除"
+            <!--削除コマンドを用意したボタン-->
+            <Button Text="{Binding Deletetext}"
                     HorizontalOptions="CenterAndExpand"
                     Command="{Binding Delete}"
                     IsEnabled="{Binding Enbale}"/>
         </StackLayout>
+        <!--シフトの一覧を表示するListView-->
      <ListView ItemsSource="{Binding Path = ListView}">
             <ListView.Behaviors>
                 <behaviors:EventToCommandBehavior
@@ -45,25 +49,26 @@
                                     <ColumnDefinition Width="20"/>
                                     <ColumnDefinition Width="2*"/>
                             </Grid.ColumnDefinitions>
-                                
+                                <!--勤務日表示ラベル-->
                             <Label Grid.Column="0"
                                    Text="{Binding Date}"
                                    HorizontalOptions="Center"
                                    VerticalOptions="Center"
                                    HeightRequest="25"
                                    TextColor="Black"/>
+                            <!--勤務開始時間ラベル-->
                             <Label Grid.Column="1"
                                    Text="{Binding StartDate}"
                                    HorizontalOptions="Center"
                                    VerticalOptions="Center"
                                    HeightRequest="25"
                                    TextColor="Black"/>
-
+                            <!--表示用ラベル-->
                             <Label Text="～"
                                    Grid.Column="2"
                                    HorizontalOptions="Start"
                                    VerticalOptions="Center"/>
-
+                            <!--勤務終了時間ラベル-->
                             <Label Grid.Column="3"
                                    Text="{Binding EndDate}"
                                    HorizontalOptions="Center"

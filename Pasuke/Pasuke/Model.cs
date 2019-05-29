@@ -13,18 +13,21 @@ namespace Pasuke.Model
 {
     public class PasukeModel : BindableBase
     {
+        //データベースに情報を追加する関数
+        //引数(シフトのリスト、出勤時間、退勤時間)
         public void dbset(List<DateTimeOffset> shiftlist, TimeSpan start, TimeSpan end)
         {
+            //Realmのインスタンスを生成
             var realm = Realm.GetInstance();
-
+            //出勤日+開始時間　出勤日+退勤時間の DatetimOffset型の変数の宣言
             foreach (DateTimeOffset item in shiftlist)
             {
                 DateTimeOffset startdate = new DateTimeOffset(item.Year, item.Month, item.Day, start.Hours, start.Minutes, 0, TimeSpan.Zero);
                 DateTimeOffset enddate = new DateTimeOffset(item.Year, item.Month, item.Day, end.Hours, end.Minutes, 0, TimeSpan.Zero);
-               
+               //上記二つの変数がデータベースに登録されているかどうかbool変数で確認
                 bool existdata = realm.All<Shiftdata>().Where(x => x.StartDate == startdate 
                                                               || x.EndDate == enddate ).Any();
-
+                //含まれていない場合データベースに登録
                 if (!existdata)
                 {
                     realm.Write(() =>
@@ -35,33 +38,23 @@ namespace Pasuke.Model
                 }
             }
         }
-        public void deletedata(string startdate)
-        {
-            DateTimeOffset todate = DateTimeOffset.Parse(startdate);
-            Console.WriteLine(todate);
-            Realm realm = Realm.GetInstance();
-            var removedata = realm.All<Shiftdata>().Where(r => r.StartDate == todate).First();
-
-            realm.Write(() =>
-            {
-                realm.Remove(removedata);
-            });
-        }
+      //DB削除用関数
         public void deletedb()
         {
             var config = new RealmConfiguration();
             Realm.DeleteRealm(config);
         }
     }
-
+    //DB構造
         public class Shiftdata : RealmObject
         {
             [PrimaryKey]
+            
             public string id { get; set; } = Guid.NewGuid().ToString();
             public DateTimeOffset StartDate { get; set; }
             public DateTimeOffset EndDate { get; set; }
          }
-
+    //ListView用クラス
     public class schedule
     {
         public string Date { get; set; }
