@@ -17,7 +17,7 @@
  シフト一覧画面 ：シフトの一覧を表示する。  
 
 # 使用しているAPI,SDKなど  
-## nuget  
+### nuget  
  Prism.Unity.Forms(MVVM化のためPrism導入)  
  XamForms.Controls.Calendar(カレンダーのため導入)  
  PublicHoliday(カレンダー表示用に休日を取得できるパッケージ)  
